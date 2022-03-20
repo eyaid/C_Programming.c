@@ -121,7 +121,7 @@ int Factorial(int x) {
 }
 */
 
-void main() {
+void main_c() {
 
 	//변수 선언
 	/*char m = 'x';
@@ -828,7 +828,7 @@ printf("%s\n", origin_str);
 */
 
 //메모리 이동 함수
-
+/*
 int array[3] = { 1,2,3 };
 int origin[3];
 
@@ -837,5 +837,5 @@ memmove(origin, array, sizeof(array));
 for (int i = 0; i < 3; i++) {
 	printf("%d\n", origin[i]);
 }
-
+*/
 }
